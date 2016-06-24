@@ -33,6 +33,9 @@ public class FRM_Ventana extends javax.swing.JFrame {
         this.btn_Siguiente.addActionListener(controlador);
         this.btn_Cancelar.addActionListener(controlador); 
         this.btn_Modificar.addActionListener(controlador);
+        this.btn_CantidadP.addActionListener(controlador);
+        this.btn_Informacion.addActionListener(controlador);
+        
     }
       public void mensaje() {
         String mensaje = "Opcion elegida:";
